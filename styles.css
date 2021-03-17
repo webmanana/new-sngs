@@ -1,0 +1,130 @@
+.video_embed {
+margin:0 auto;
+}
+.title {
+	font-size: 18px;
+	margin-bottom: 16px;
+}
+.title_line {
+	position: relative;
+	padding-left: 16px;
+	padding-right: 16px;
+}
+.title_line::after {
+	display: flex;
+	position: absolute;
+	content: '';
+	height: 26px;
+	width: 1px;
+	background: #E8E8E8;
+	top: 6px;
+}
+.about-links ul li {
+	margin-bottom: 32px;
+}
+.about-links ul li h4 {
+	font-size: 18px;
+}
+.new_title {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 32px;
+}
+.news_big, .news_small {
+	width: 50%;
+}
+.aksii_block {
+	width: 50%;
+}
+.title-n {
+	font-size: 32px;
+}
+.aksii_content {
+	background: #EBEEF2;
+	padding: 32px;
+	margin-bottom: 32px;
+}
+.aksii_content a {
+	margin-bottom: 32px;
+}
+.new_link {
+	display: flex;
+	margin-top: 10px;
+}
+.new_title h4 {
+	line-height: 1;
+	margin-bottom: 0;
+	font-size: 32px;
+}
+.section {
+	padding-top: 64px;
+}
+.news_item {
+	margin-bottom: 30px;
+	display: flex;
+}
+.news_list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.news_list__img {
+	display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 380px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 160px;
+  -ms-flex: 0 0 160px;
+  flex: 0 0 160px;
+  margin-right: 12px;
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin-bottom: 16px;
+}
+.content {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-left: -16px;
+	margin-right: -16px;
+}
+.select2-container {
+	width: 520px!important;
+}
+.block {
+	padding-left: 16px;
+	padding-right: 16px;
+}
+.flex-right {
+	display: flex;
+	justify-content: flex-end!important;
+}
+@media (max-width: 640px) {
+.video_embed iframe {
+width:100%;
+	}
+}
+@media (max-width: 900px) {
+	.news_list {
+		flex-direction: column;
+	}
+	.news_big, .news_small, .aksii_block {
+		width: 100%;
+	}
+	.map-desc {
+		width: 100%!important;
+	}
+	.new_about {
+		flex-direction: column;
+	}
+	.about-links {
+		margin: 0;
+	}
+	.about-desc {
+		max-width: 100%;
+	}
+}
